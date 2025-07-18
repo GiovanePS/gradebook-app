@@ -1,0 +1,26 @@
+{
+	"name": "gradebook-app",
+	"version": "1.0.0",
+	"description": "",
+	"homepage": "https://github.com/GiovanePS/gradebook-app#readme",
+	"bugs": {
+		"url": "https://github.com/GiovanePS/gradebook-app/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/GiovanePS/gradebook-app.git"
+	},
+	"license": "ISC",
+	"author": "Giovane Pimentel de Sousa",
+	"type": "commonjs",
+	"main": "index.js",
+	"directories": {
+		"doc": "doc"
+	},
+	"scripts": {
+		"test": "npx jest"
+	},
+	"devDependencies": {
+		"jest": "^30.0.4"
+	}
+}
