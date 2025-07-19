@@ -3,12 +3,13 @@
  * @description Just for my testing purposes.
  */
 
-const { getAverage } = require('./getAverage.js')
+const { studentMsg } = require('./studentMsg.js')
 
 function main() {
-    const scores = [0, 1, NaN]
-    const average = getAverage(scores)
-    console.log(`The average score is: ${average}`)
+    const scores = [100, 100, 100]
+    const studentScore = 100
+    const msg = studentMsg(scores, studentScore)
+    console.log(msg)
 }
 
 main()
