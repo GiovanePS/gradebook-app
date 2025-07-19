@@ -29,5 +29,5 @@ describe('getAverage', () => {
         expect(() => getAverage(input)).toThrow(
             Errors.INVALID_INPUT('expected scores must be numeric values.')
         )
-    });
+    })
 })

@@ -40,4 +40,8 @@ describe('getGrade', () => {
             Errors.INVALID_INPUT('expected a number between 0 and 100')
         )
     })
+
+    test('throws error for NaN input', () => {
+        expect(() => getGrade(NaN)).toThrow(Errors.INVALID_INPUT('expected a number between 0 and 100'))
+    })
 })

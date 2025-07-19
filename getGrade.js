@@ -18,7 +18,7 @@ const Errors = require("./errors")
  *      getGrade(100) // returns 'A++'
  */
 function getGrade(score) {
-    if (typeof score !== 'number' || score < 0 || score > 100) {
+    if (typeof score !== 'number' || score < 0 || score > 100 || isNaN(score)) {
         throw new Error(Errors.INVALID_INPUT('expected a number between 0 and 100'))
     }
 
